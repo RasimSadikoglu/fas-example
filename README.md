@@ -1,6 +1,6 @@
 # Takasbank Internship Project
 
-An example project of buying, selling and monitoring of the funds. The project is not related with the real work, it only offers a most basic functionality. This is also my first project using spring boot and React.js project, therefore there are many things that are fundamentally wrong about.
+An example project of buying, selling and monitoring of the funds. The project is not related with the real work, it only offers a most basic functionality. This is also my first project using spring boot and React.js, therefore there are many things that are fundamentally wrong about.
 
 ## Backend
 
