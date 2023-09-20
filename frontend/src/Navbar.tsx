@@ -33,7 +33,7 @@ const Navbar = () => {
                     Fund Monitor
                 </button>
                 <button
-                    onClick={() => navigate(routes.TEMINAT_REPORT)}
+                    onClick={() => navigate(routes.GUARANTEE_REPORT)}
                     className='btn btn-light nav-item'
                     disabled={!authController.isUserHasAuthority('FON_LIST')}
                 >

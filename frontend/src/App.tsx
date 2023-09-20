@@ -13,7 +13,7 @@ import NotFound from './pages/NotFound';
 import Unauthorized from './pages/Unauthorized';
 import Forbidden from './pages/Forbidden';
 import ProtectedRoute from './components/protected-route';
-import TeminatReport from './pages/GuaranteeReport';
+import GuaranteeReport from './pages/GuaranteeReport';
 
 const App = () => {
     const authController = useAuth();
@@ -67,8 +67,8 @@ const App = () => {
                             element={<Forbidden />}
                         ></Route>
                         <Route
-                            path={routes.TEMINAT_REPORT}
-                            element={<TeminatReport></TeminatReport>}
+                            path={routes.GUARANTEE_REPORT}
+                            element={<GuaranteeReport></GuaranteeReport>}
                         ></Route>
                         <Route path='*' element={<NotFound />}></Route>
                     </Routes>

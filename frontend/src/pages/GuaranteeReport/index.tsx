@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { routes } from '../../routes';
 
-const TeminatReport = () => {
+const GuaranteeReport = () => {
     const navigate = useNavigate();
 
     return (
@@ -81,4 +81,4 @@ const TeminatReport = () => {
     );
 };
 
-export default TeminatReport;
+export default GuaranteeReport;
