@@ -37,7 +37,7 @@ const Navbar = () => {
                     className='btn btn-light nav-item'
                     disabled={!authController.isUserHasAuthority('FON_LIST')}
                 >
-                    Guarentee Report
+                    Guarantee Report
                 </button>
                 <button
                     className='nav-item btn ms-auto btn btn-light nav-item'

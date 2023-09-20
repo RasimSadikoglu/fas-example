@@ -7,7 +7,7 @@ const TeminatReport = () => {
     return (
         <div className='p-3'>
             <div id='header' className='d-flex gap-3 border p-3 rounded-1'>
-                <h3>Guareentee Status Report</h3>
+                <h3>Guarantee Status Report</h3>
                 <button className='btn btn-outline-primary ms-auto'>
                     Report
                 </button>
