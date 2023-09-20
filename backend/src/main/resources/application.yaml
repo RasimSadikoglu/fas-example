@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/fas
+    username: postgres
+    password: postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show-sql: true
+        format-sql: true
+        use-sql-comments: true
+
+fas-example:
+  app:
+    jwtSecret: +L6Qe90T6qc/OP1j8+gFARpfnoA5AWEycSijggjuwxs=
+    jwtExpirationMs: 86400000
